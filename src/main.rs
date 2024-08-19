@@ -11,3 +11,12 @@ fn main() {
         }
     })
 }
+
+#[cfg(test)]
+mod tests {
+
+    #[test]
+    fn basic_equality() {
+        assert_eq!(1, 2);
+    }
+}
